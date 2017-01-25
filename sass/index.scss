@@ -1,0 +1,283 @@
+#head-wrap {
+  position: relative;
+  width: 100%;
+  height: 548px;
+
+  > #head-div {
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+    border-bottom: 3px solid #3b3b3b;
+
+    > header {
+      position: relative;
+      width: 960px;
+      margin: 0 auto;
+      height: 66px;
+
+      > #link-to-line {
+        float: left;
+        height: 21px;
+        width: 60px;
+        position: relative;
+        margin-top: 21px;
+        background-image: url(../image/main-logo.png);
+        background-repeat: no-repeat;
+        background-size: 60px 21px;
+      }
+
+      > ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        height: 66px;
+        position: relative;
+
+        > li {
+          float: left;
+          font-size: 12px;
+          margin-left: 5px;
+
+          > a, span {
+            margin-left: 10px;
+            text-decoration: none;
+            color: #444;
+          }
+        }
+
+        &#list-left {
+          position: relative;
+          float: left;
+          line-height: 66px;
+
+          > .li-left {
+            float: left;
+          }
+        }
+
+        &#list-right {
+          float: right;
+          position: relative;
+          width: 300px;
+          margin: 0;
+          padding: 0;
+          height: 66px;
+
+          > .li-right {
+            height: 100%;
+            margin-left: 15px;
+
+            > p {
+              margin-top: 25px;
+            }
+
+            > a {
+              margin-top: 25px;
+              font-size: 0;
+              display: block;
+              padding: 0;
+              background-image: url(https://static.line.naver.jp/line_lp/img/spritePC160713.png);
+            }
+
+            > #youtube-link {
+              height: 18px;
+              width: 46px;
+              background-position: -1057px 0;
+            }
+
+            > #facebook-link {
+              width: 10px;
+              height: 18px;
+              background-position: -817px 0;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  > #animation {
+    // border-top: 3px solid #3b3b3b;
+    position: static;
+    top: 68px;
+    height: 480px;
+    margin: 0;
+    padding: 0;
+    display: block;
+
+    > ul {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+
+      > li {
+        width: 100%;
+        height: 100%;
+        background-image: url(https://d.line-scdn.net/stf/line-lp/PC_LINE_Store_ko_1231231.png);
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-position: center 0;
+        margin: 0;
+        padding: 0;
+      }
+    }
+  }
+}
+
+#contents-sec {
+  width: 100%;
+  height: 100%;
+
+  > #contents {
+    width: 960px;
+    height: 100%;
+    margin: 0 auto;
+
+    > section.content {
+      width: 960px;
+      height: 550px;
+      margin-bottom: 50px;
+      // margin-top: 50px;
+
+      > div {
+        height: 100%;
+        width: 450px;
+        float: left;
+        word-wrap: break-word;
+
+        > img {
+          width: 100%;
+          // height: 100%;
+        }
+
+        &.cont-text {
+          margin-left: 30px;
+
+          > h2 {
+            margin-top: 47px;
+            line-height: 1.1;
+            font-size: 54px;
+            font-weight: normal;
+            color: inherit;
+          }
+
+          > p {
+            margin-top: 15px;
+            line-height: 1.8;
+            font-size: 14px;
+            font-weight: normal;
+            color: inherit;
+          }
+        }
+      }
+
+      > #wrap-last {
+        margin-top: 50px;
+        width: 100%;
+        height: 100%;
+
+        > ul {
+          width: 100%;
+          height: 100%;
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+
+          > li {
+            float: left;
+            height: 100%;
+            width: (880px / 3);
+
+            > h2 {
+              word-wrap:break-word;
+              margin-top: 15px;
+              line-height: 1;
+              font-size: 14px;
+              font-weight: bold;
+              color: inherit;
+            }
+
+            > p {
+              margin-top: 10px;
+              line-height: 1.6;
+              font-size: inherit;
+              font-weight: inherit;
+              color: inherit;
+            }
+
+            &:nth-child(2), &:nth-child(3) {
+              margin-left: 40px;
+            }
+          }
+        }
+      }
+    }
+
+    // > #special-section {
+    //   margin-top: 150px;
+    // }
+  }
+}
+
+#footer-wrap {
+  // position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 26px 0 28px;
+  display: block;
+  height: 39px;
+  background-color: #3b3b3b;
+
+  div#footer-main {
+    width: 100%;
+    height: 80%;
+    margin: 0 auto;
+
+    > ul {
+      width: 900px;
+      height: 100%;
+      display: block;
+      position: relative;
+      vertical-align: top;
+      font-size: 0;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 0;
+
+      > li {
+        float: left;
+        list-style-type: none;
+        display: inline-block;
+        font-size: 12px;
+        display: block;
+        text-align: center;
+
+        > a {
+          color: #838383;
+          font-size: 12px;
+          text-decoration: none;
+          line-height: 2;
+        }
+
+        > span {
+          color: #838383;
+          width: 0;
+          overflow: hidden;
+          margin: 0 10px;
+          height: 10px;
+        }
+      }
+    }
+  }
+
+  > p {
+    margin: 0;
+    text-align: center;
+    font-size: 12px;
+    color: #838383;
+    font-family: "Roboto";
+    font-weight: 300;
+  }
+
+}
